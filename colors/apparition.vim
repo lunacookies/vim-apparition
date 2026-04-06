@@ -122,7 +122,9 @@ hi! link         vimFunctionName Function
 hi! link         vimBracket      vimNotation
 
 if has("nvim")
-	hi @variable guifg=NONE guibg=NONE gui=NONE
+	hi @variable guifg=NONE   guibg=NONE gui=NONE
+	hi link      @constructor Identifier
+
 	let g:terminal_color_0  = "#000000"
 	let g:terminal_color_1  = "#996666"
 	let g:terminal_color_2  = "#719611"
