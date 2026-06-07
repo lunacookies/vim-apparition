@@ -94,7 +94,7 @@ hi! link         Tag             Special
 hi! link         SpecialComment  Special
 hi! link         Debug           Special
 
-hi  Error        guifg=#ffffff   guibg=#ff0000 gui=NONE
+hi  Error        guifg=#ff0000   guibg=NONE    gui=bold,undercurl
 hi  Todo         guifg=#8f6f8f   guibg=#202020 gui=italic,underline,bold
 
 hi  DiffAdd      guifg=#000000   guibg=#3cb371 gui=NONE
