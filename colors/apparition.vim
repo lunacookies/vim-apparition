@@ -119,6 +119,8 @@ hi! link         htmlTagName     Statement
 hi! link         xmlEqual        Operator
 hi! link         vimUserFunc     Function
 hi! link         vimFunctionName Function
+hi! link         vimVar          Identifier
+hi! link         vimVarScope     vimVar
 hi! link         vimBracket      vimNotation
 
 if has("nvim")
